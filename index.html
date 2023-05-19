@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bo'luvchilari sonini hisoblash</title>
+</head>
+<body>
+  <script>
+    function BoluvchilarSoni(n) {
+      var count = 0;
+      for (var i = 1; i <= n; i++) {
+        if (n % i === 0) {
+          count++;
+        }
+      }
+      return count;
+    }
+
+    var N = 15;
+    var result = BoluvchilarSoni(N);
+        document.write("Bo'luvchilari soni: " + result);
+
+let anonimFunksiya = function (parametr) {
+  // Funksiyani amalga oshiradigan kodlar
+};
+
+// Anonim funksiyani chaqirish
+anonimFunksiya(argument);
+  </script>
+</body>
+</html>
